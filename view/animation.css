@@ -1,0 +1,27 @@
+
+/* Slide In from Left Animation: Slides the element in from the left side. Adjust values as necessary. */
+@keyframes slideInLeft {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
+.slide-in-left {
+    animation: slideInLeft 0.5s ease-out;
+}
+
+/* Slide In from Right Animation: Slides the element in from the right side. Useful for side panels or alerts. */
+@keyframes slideInRight {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(0); }
+}
+.slide-in-right {
+  animation: slideInRight 0.5s ease-out;
+}
+
+/* Fade In Animation: Smoothly transitions the element from invisible to visible. Customize as needed. */
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
