@@ -12,7 +12,7 @@ from PIL import Image
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'rahasia-negara-aman-123'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///rst_slamet_riyadi.db'
-app.config['OPENROUTER_API_KEY'] = "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"
+app.config['OPENROUTER_API_KEY'] = "-"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['UPLOAD_FOLDER'] = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'uploads')
 app.config['MAX_CONTENT_LENGTH'] = 5 * 1024 * 1024  # 5 MB max file size
